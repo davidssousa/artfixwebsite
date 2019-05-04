@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('https://via.placeholder.com/1920x1280'); */
+    background-image: url('../images/aviao_rir.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home img {
+    width: 100%;
+}
+
+.home .topo {
+    align-self: center;
+}
+.home .nav {
+    align-self: center;
+}
+
+.topo, .topo__telefone, .topo_icons {
+    display: flex;
+}
+
+.topo {
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    color: silver;  
+}
+.topo__icons {
+    font-size: 30px;
+}
+.topo__telefone span i {
+    margin-right: 6px;
+    font-size: 20px;
+}
+.topo__telefone .telefone {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav ul {
+    list-style-type: none;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 100%;
+}
+.menu a {
+    padding: 0 15px;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 0, 0.568);
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    margin-top: 48px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.menu > li:hover > .sub-menu {
+    display: block;
+
+}
+
+.sub-menu:hover a:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 0, 0.568);
+}
+
+
+
+/* A EMPRESA */
+.aempresa {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+    .aempresa__title {
+        text-align: center;
+        color: #00768d;
+        font-size: 22px;
+        padding: 2px 0;
+    }
+    .aempresa__media {
+        align-self: center;
+        margin-top: 10px;
+    }
+    
+    .aempresa__media__iframe {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        align-self: center;
+    }
+    .aempresa__media__iframe iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+
