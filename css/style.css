@@ -147,21 +147,46 @@ nav {
         justify-content: space-between;
         width: 600px;
         align-items: center;
-        margin: 20px auto 10px auto;
+        margin: 20px auto;
     }
     .bemvindo__icons__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background: #00768d;
-    color: #fff;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background: #00768d;
+        color: #fff;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
     }
     .bemvindo__icons__item i {
-    font-size: 30px;
+        font-size: 30px;
+    }
+    .bemvindo__icons__item:hover {
+        color: #00768d;
+        border: 2px solid #00768d; 
+        background: #fff;
+    }
+    .bemvindo__icons__item:hover i {
+        font-size: 40px;
+    }
+    .bemvindo__icons__separador {
+        background-color: #d8d6d6;
+        width: 60px;
+        height: 2px;
+        margin: 25px auto;
+    }
+    .bemvindo__icons__label {
+        color: #797878;
+        font-size: 14px;
+    }
+    .bemvindo_icons_itemgroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 
