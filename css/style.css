@@ -18,12 +18,7 @@
 }
 
 .topo {
-    width: 100%;
-    z-index: 998;
-    display: flex;
-    position: fixed;
-    padding: 0 10%;
-    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
 }
     .topo__telefone, .topo_icons {
         display: flex;
@@ -37,6 +32,9 @@
     .topo__icons {
         font-size: 30px;
     }
+    .topo__icons i {
+        margin-right: 10px; 
+    }
     .topo__telefone span i {
         margin-right: 6px;
         font-size: 15px;
@@ -46,29 +44,127 @@
         margin-top: 2px;
     }
 
-
-
-
+/* 
+nav {
+    background-color: #00768d;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
 
 .home {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    border : 1px solid red;
     flex: 1 0 100%;
 }
 
 
 
-
-
-
-
-
-.empresa {
-    border: 1px solid green;
+.aempresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 20px;
 }
+    .aempresa__title {
+        text-align: center;
+        color: #00768d;
+        font-size: 18px;
+        padding: 2px 0;
+    }
+
+    
+
+    #iframe-container {
+        margin: 0 auto !important;
+        max-width: 800px;
+        padding: 10px 0;
+    }
+    .responsive {
+        position: relative;
+        height: 0;
+        width: 100%;
+        padding-bottom: 56.25%;
+    }
+    .responsive iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    hr { 
+        display: block; height: 2px;
+        border: 0; 
+        border-top: 1px solid #00768d;
+        margin: 1em 0; padding: 0; }
+
+
+
+.bemvindo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}        
+    .bemvindo__title {
+        font-size: 20px;
+        color:#00768d;
+        align-self: center;
+        padding: 10px 0;
+    }
+    .bemvindo__conteudo {
+        margin: 0 5px;
+        font-size: 15px;
+        color:#9e9c9c;
+        align-self: center;
+        padding: 10px 0 0 0;
+    }
+    .bemvindo__conteudo h6 {
+        font-weight: bold;
+    }
+    .bemvindo__centros {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        color:#9e9c9c;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .bemvindo__centros_detalhe {
+        flex: 0 0 350px;
+        padding: 0 0 5px 0;
+        margin: 0;
+    }
+    .bemvindo__centros_detalhe i {
+        margin-right: 10px;
+        color: #00768d;
+    }
+
+    .bemvindo__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .bemvindo__icons__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #00768d;
+    color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    }
+    .bemvindo__icons__item i {
+    font-size: 30px;
+    }
+
+
 
 .footer {
     border: 1px solid blue;
@@ -84,16 +180,41 @@
     height: 100vh;
 }
 
-.responsivo {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
+
+@media (min-width: 480px) {
+    .topo {
+        display: flex;
+        width: 100%;
+        z-index: 998;
+        position: fixed;
+        padding: 0 10%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    /* nav {
+        top: 45px !important;
+        background: red;
+    }
+    nav > a {
+        background: red;
+    } */
+    .aempresa__title {
+        font-size: 22px;
+    }
+
+    .bemvindo__title {
+        font-size: 40px;
+    }
+    .bemvindo__conteudo {
+        font-size: 15px;
+        max-width: 700px;
+    }
+    .bemvindo__centros {
+        font-size: 15px;
+        max-width: 700px;
+    }
+
+    
+    
 }
-.responsivo img{
-   max-width: 100%;   /* Máximo da largura da imagem */
-   width: 100%;
-   min-height: auto;      /* Mínimo da altura, por padrão “auto” */
-   background-size:100%;
-   background-repeat: no-repeat;
-   background: cover;
-}
+
