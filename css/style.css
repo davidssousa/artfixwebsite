@@ -205,6 +205,43 @@ nav {
 }
 
 
+.servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 10px auto;
+}
+
+.servicos__cards {
+    display: flex;
+    flex-direction: column;
+}
+.servicos__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    
+}
+    .servicos__card img {
+        width: 190px;
+    }
+    .servicos__card__title {
+        font-size: 20px;
+    }
+
+    .servicos__card_color_1 { color: #8EC54B }
+    .servicos__card_color_2 { color: #F9A358 }
+    .servicos__card_color_3 { color: #ED635F }
+    
+    .servicos__card__title { font-size: 25px; align-self: center; }
+    .servicos__card__subtitle { font-size: 16px; width: 300px; height: 70px; padding: 10px 0 20px 0; align-self: center; }
+    .servicos__card__content { font-size: 14px; width: 300px; height: 150px; align-self: center; color: #9e9c9c; }
+
+    .servicos__card__btn1 {  font-size: 16px; width: 150px; height: 45px; padding: 10px; align-self: center; border: 1px solid #8EC54B; color: #8EC54B; border-radius: 5px; margin: 10px auto; }
+    .servicos__card__btn2 {  font-size: 16px; width: 150px; height: 45px; padding: 10px; align-self: center; border: 1px solid #F9A358; color: #F9A358; border-radius: 5px; margin: 10px auto; }
+    .servicos__card__btn3 {  font-size: 16px; width: 150px; height: 45px; padding: 10px; align-self: center; border: 1px solid #ED635F; color: #ED635F; border-radius: 5px; margin: 10px auto; }
+
 @media (min-width: 700px) {
     .topo {
         display: flex;
@@ -243,7 +280,38 @@ nav {
         width: 600px;
     }
 
-    
+    /* .bemvindo_carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        height: 300px;
+    }     */
+/* 
+    .responsive img {
+        background-position: center center;
+        background-size: cover;
+        max-width: 100%;
+    } */
+
+    #carouselExampleControls {
+        margin: 0 auto 10px auto;
+    }
+
+    .servicos__cards {
+        flex-direction: row;
+        width: 1050px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .servicos__card {
+        min-width: 350px;
+    }
     
 }
 
+.titulo {
+    font-size: 30px;
+    color:#00768d;
+    align-self: center;
+    padding: 10px 0;
+}
