@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.principal .topo {
+    align-self: center;
+}
+.principal .nav {
+    align-self: center;
+}
+
+.topo {
+    width: 100%;
+    z-index: 998;
+    display: flex;
+    position: fixed;
+    padding: 0 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+    .topo__telefone, .topo_icons {
+        display: flex;
+    }
+
+    .topo {
+        justify-content: space-between;
+        align-items: center;
+        color: silver;  
+    }
+    .topo__icons {
+        font-size: 30px;
+    }
+    .topo__telefone span i {
+        margin-right: 6px;
+        font-size: 15px;
+    }
+    .topo__telefone .telefone {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+
+
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    border : 1px solid red;
+    flex: 1 0 100%;
+}
+
+
+
+
+
+
+
+
+.empresa {
+    border: 1px solid green;
+}
+
+.footer {
+    border: 1px solid blue;
+}
+
+.home img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+}
+
+.responsivo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.responsivo img{
+   max-width: 100%;   /* Máximo da largura da imagem */
+   width: 100%;
+   min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+   background-size:100%;
+   background-repeat: no-repeat;
+   background: cover;
+}
