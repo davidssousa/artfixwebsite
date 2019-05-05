@@ -147,7 +147,7 @@ nav {
         justify-content: space-between;
         width: 600px;
         align-items: center;
-        margin: 0 auto;
+        margin: 20px auto 10px auto;
     }
     .bemvindo__icons__item {
     display: flex;
