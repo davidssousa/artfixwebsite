@@ -44,12 +44,12 @@
         margin-top: 2px;
     }
 
-/* 
+
 nav {
     background-color: #00768d;
     margin: 0 !important;
     padding: 0 !important;
-} */
+}
 
 .home {
     display: flex;
@@ -144,6 +144,7 @@ nav {
 
     .bemvindo__icons {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         width: 600px;
         align-items: center;
@@ -187,6 +188,7 @@ nav {
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 10px;
     }
 
 
@@ -206,7 +208,7 @@ nav {
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 700px) {
     .topo {
         display: flex;
         width: 100%;
@@ -216,13 +218,13 @@ nav {
         color: #fff;
         background-color: rgba(0, 0, 0, 0.4);
     }
-    /* nav {
+    nav {
         top: 45px !important;
-        background: red;
+        background-color: rgba(0, 0, 0, 0.4) !important;
     }
     nav > a {
-        background: red;
-    } */
+        margin-left: 100px !important;
+    }
     .aempresa__title {
         font-size: 22px;
     }
@@ -237,6 +239,10 @@ nav {
     .bemvindo__centros {
         font-size: 15px;
         max-width: 700px;
+    }
+    .bemvindo__icons {
+        flex-direction: row;
+        flex-basis: 150px;
     }
 
     
