@@ -47,8 +47,6 @@
 
 nav {
     background-color: #00768d;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
 .home {
@@ -145,8 +143,7 @@ nav {
     .bemvindo__icons {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        width: 600px;
+        justify-content: center;
         align-items: center;
         margin: 20px auto;
     }
@@ -242,7 +239,8 @@ nav {
     }
     .bemvindo__icons {
         flex-direction: row;
-        flex-basis: 150px;
+        justify-content: space-between;
+        width: 600px;
     }
 
     
