@@ -111,7 +111,7 @@ nav {
         padding: 10px 0;
     }
     .bemvindo__conteudo {
-        margin: 0 5px;
+        margin: 0 10px;
         font-size: 15px;
         color:#9e9c9c;
         align-self: center;
@@ -122,7 +122,7 @@ nav {
     }
     .bemvindo__centros {
         padding: 0;
-        margin: 0;
+        margin: 0 10px;
         font-size: 15px;
         color:#9e9c9c;
         align-self: center;
