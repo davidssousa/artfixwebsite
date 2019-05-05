@@ -242,6 +242,87 @@ nav {
     .servicos__card__btn2 {  font-size: 16px; width: 150px; height: 45px; padding: 10px; align-self: center; border: 1px solid #F9A358; color: #F9A358; border-radius: 5px; margin: 10px auto; }
     .servicos__card__btn3 {  font-size: 16px; width: 150px; height: 45px; padding: 10px; align-self: center; border: 1px solid #ED635F; color: #ED635F; border-radius: 5px; margin: 10px auto; }
 
+
+.clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #03979E;
+}
+    .depoimentos_titulo {
+        align-self: center;
+        text-align: center;
+        font-size: 40px;
+        padding: 30px 0 30px 0;
+        color: #fff;
+    }
+    .depoimentos_conteudo {
+        align-self: center;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 0 30px 0;
+        margin: 0 10px;
+    }
+    .depoimentos_autor {
+        align-self: flex-end;
+        text-align: right;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 0 20px 0;
+        margin: 0 10px;
+    }
+    
+    .sustentabilidade {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #E9F1D5;
+        padding-top: 20px;
+    }
+        .sustentabilidade__item {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            width: 1100px;
+            margin: 0 auto 50px auto;
+        }   
+            .sustentabilidade img {
+                width: 300px;
+                height: 300px;
+            }
+            .sustentabilidade_img {
+                width: 300px;
+                flex: 1;
+            }
+        
+            .sustentabilidade__info {
+                display: flex;
+                flex-direction: column;
+                padding: 0 30px;
+            }
+                .sustentabilidade__subtitule {
+                    color: #9e9c9c;
+                }
+                .sustentabilidade__opcoes {
+                    padding-top: 10px;
+                }
+                    .sustentabilidade__opcoes_it i {
+                        color: #9e9c9c;
+                        color: #00768d;
+                        margin-right: 10px;
+                    }
+                    .sustentabilidade__opcoes_it span {
+                        color: #9e9c9c;
+                    }
+
+        
 @media (min-width: 700px) {
     .topo {
         display: flex;
@@ -306,12 +387,30 @@ nav {
     .servicos__card {
         min-width: 350px;
     }
+
+    .depoimentos_titulo {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .depoimentos_conteudo {
+        margin: 0 auto;
+        width: 600px;
+    }
+    .depoimentos_autor {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .sustentabilidade__item {
+        flex-direction: row;
+    }
+    
     
 }
 
 .titulo {
-    font-size: 30px;
+    font-size: 40px;
     color:#00768d;
     align-self: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
