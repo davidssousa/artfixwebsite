@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .principal .topo {
@@ -377,8 +379,65 @@ nav {
         }
 
     
+.mapasite {
+    background: #222222;
+    padding: 100px;
+}
+
+.mapasite__titulo {
+    color: silver;
+}
+.mapasite__itens {
+    display: flex;
+    flex-direction: column;
+}
+.mapasite__item {
+    display: flex;
+    flex-direction: row;
+    color: silver;
+    font-size: 12px;
+    align-items: center;
+    align-content: center;
+    padding: 5px 0px 5px 20px;
+}
+
+.mapasite__item i {
+    margin-right: 10px;
+}
 
 
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: silver;  
+    background: #121313;
+    border-top: 1px solid #2a2a2a;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    flex: 0 0 auto;
+}
+.footer__telefone, .footer_icons {
+    display: flex;
+}
+.footer__icons {
+    font-size: 30px;
+}
+.footer__icons i {
+    margin-right: 10px; 
+}
+.footer__telefone span i {
+    margin-right: 6px;
+    font-size: 15px;
+}
+.footer__telefone .telefone {
+    font-size: 15px;
+    margin-top: 2px;
+}
+.footer__razao {
+    display: none;
+}    
         
 @media (min-width: 550px) {
     .topo {
@@ -467,7 +526,18 @@ nav {
     .certificacoes__subtitulo {
         width: 700px;
     }
+
+    .footer__razao {
+        display: flex;
+    }
+    .footer {
+        padding: 10px 0px;
+        margin-bottom: 0;
+    }
     
+    .principal {
+        margin-bottom: 0px;
+    }
     
 }
 
