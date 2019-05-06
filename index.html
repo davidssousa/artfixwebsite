@@ -7,9 +7,11 @@
     <title>Artfix</title>
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto+Mono|Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/navbar-sticky.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -27,7 +29,7 @@
         </div>
       </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navtopo">
               <a class="navbar-brand" href="#" >
                   <img src="./images/logo.png" alt="logomar marca da empresa Artfix">
               </a>
@@ -248,7 +250,7 @@
             Serviços
         </div>
         <div class="servicos__cards">
-          <div class="servicos__card">
+          <div class="servicos__card animated bounceInLeft slow">
               <div class="servicos__card__img">
                   <img src="./images/card_1.png" alt="">
               </div>
@@ -266,7 +268,7 @@
               </div>
 
           </div>
-          <div class="servicos__card">
+          <div class="servicos__card animated delay-2s bounceInUp">
               <div class="servicos__card__img">
                   <img src="./images/card_2.png" alt="">
               </div>
@@ -284,7 +286,7 @@
               </div>
               
           </div>
-          <div class="servicos__card">
+          <div class="servicos__card animated delay-2s bounceInRight">
               <div class="servicos__card__img">
                   <img src="./images/card_3.png" alt="">
               </div>
@@ -308,10 +310,10 @@
         <div class="bemvindo__title">
             Nossos Clientes
         </div>
-        <img src="./images/nossos_clientes.png" class="d-fluid;" alt="">
+        <img src="./images/nossos_clientes.png" class="d-fluid; animated delay-2s bounceInLeft" alt="">
     </div>
     
-    <div class="depoimentos">
+    <div class="depoimentos animated delay-2s bounceInRight">
         <div class="depoimentos_titulo">
             Depoimentos
         </div>
@@ -329,10 +331,10 @@
           Sustentabilidade
       </div>
       <div class="sustentabilidade__item">
-          <div class="sustentabilidade__img">
+          <div class="sustentabilidade__img animated delay-2s bounceInLeft">
               <img src="./images/eco_globe.png" alt="">
           </div>
-          <div class="sustentabilidade__info">
+          <div class="sustentabilidade__info animated delay-2s bounceInRight">
             <div class="sustentabilidade__subtitule">
                 A Artfix entende que é preciso olhar o meio ambiente, a sociedade, e ao mesmo tempo proporcionar soluções que sejam viáveis do ponto de vista econômico. São ações cotidianas que ajudam a preservar o planeta, a saúde e a qualidade de vida de quem faz a nossa empresa e da sociedade em geral.
                 Veja algumas delas:
@@ -380,32 +382,32 @@
             Além de nossas ações, possuímos certificações que demostram ao mercado que estamos em conformidade com os mais altos padrões de qualidade e exigências do mercado:
         </div>
         <div class="certificacoes__cards">
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
               <div class="certificacoes__logo"><img src="./images/logo_abvtex.png" alt=""></div>
               <div class="certificacoes__titulo">Certificação ABVTEX</div>
               <div class="certificacoes__conteudo">A certificação prevê a realização de auditorias independentes para o monitoramento de práticas, compromissos e aspectos de gestão ligados aos temas: trabalho infantil, trabalho forçado, discriminação, abuso e assédio, saúde e segurança do trabalho, monitoramento da cadeia produtiva, meio ambiente entre outros.</div>
             </div>
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
                 <div class="certificacoes__logo"><img src="./images/logo_greenguard-gold.png" alt=""></div>
                 <div class="certificacoes__titulo">Selo GreenGuard Gold</div>
                 <div class="certificacoes__conteudo">As tintas utilizadas são certificadas internacionalmente pela Greenguard como amigáveis ao ambiente e não nocivas aos operadores, além de serem usadas sem qualquer prejuízo a pessoas que sejammais vulneráveis, como crianças ou idosos.</div>
             </div>
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
                 <div class="certificacoes__logo"><img src="./images/logo_intertek.png" alt=""></div>
                 <div class="certificacoes__titulo">Auditoria de Responsabilidade</div>
                 <div class="certificacoes__conteudo">Atesta que as práticas da empresa são sustentáveis e garante que instalações e produtos estejam adequados quanto ao cuidado com substâncias tóxicas ou restritas, além de considerar questões éticas e legais dos negócios.</div>
             </div>
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
                 <div class="certificacoes__logo"><img src="./images/logo_premio-loreal.jpg" alt=""></div>
                 <div class="certificacoes__titulo">Prêmio L’Oréal Fornecedor 2015 Categoria Sustentabilidade</div>
                 <div class="certificacoes__conteudo">O objetivo da premiação é avaliar seus principais fornecedores de acordo com a alta qualidade dos serviços executados e o desenvolvimento sustentável e ético de seus negócios.</div>
             </div>
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
                 <div class="certificacoes__logo"><img src="./images/logo_sgs.png" alt=""></div>
                 <div class="certificacoes__titulo">Auditoria de Processos</div>
                 <div class="certificacoes__conteudo">Audita produtos, processos, sistemas, serviços e recursos humanos das empresas e comprova se eles estão em conformidade com as regulamentações e normas nacionais e internacionais exigidas pelos grandes players do mercado.</div>
             </div>
-            <div class="certificacoes__card">
+            <div class="certificacoes__card animated delay-2s zoomIn">
                 <div class="certificacoes__logo"><img src="./images/logo_cetesb.png" alt=""></div>
                 <div class="certificacoes__titulo">Licenciamento Ambiental</div>
                 <div class="certificacoes__conteudo">É responsável por controlar, monitorar, licenciar e fiscalizar as atividades geradoras de poluição, com a preocupação fundamental de preservar e recuperar a qualidade das águas, do ar e do solo.</div>
@@ -500,7 +502,22 @@
       $('.carousel').carousel({
         interval: 4000
       })
+
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if($(document).scrollTop() > 50) {
+            $('#navtopo').addClass('displayNav');
+            $('.topo').addClass('displayTopo');
+          }
+          else {
+            $('#navtopo').removeClass('displayNav');
+            $('.topo').removeClass('displayTopo');
+          }
+        });
+      });
     </script>
+
+    
   </body>
 </html>
 
