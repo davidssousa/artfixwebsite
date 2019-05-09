@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+.quemsomos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.quemsomos__infomacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+    .quemsomos__titulo1 {
+        font-size: 18px;
+        color:#00768d;
+        align-self: center;
+        padding: 20px 0;
+    }
+    .quemsomos__item {
+        color: silver;
+        margin: 0 0 0 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+        .quemsomos__item__detalhe {
+            color: silver;
+            margin: 0 0 0 20px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .quemsomos__item__opcoes {
+            display: flex;
+            flex-direction: column;
+            color: silver;
+            margin: 0 0 0 20px;
+            padding: 10px;
+            font-size: 12px;
+        }
+            .quemsomos__item__opcao {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: silver;
+                margin: 0 0 0 20px;
+                padding: 10px;
+                font-size: 12px;
+            }
+                .quemsomos__item__opcao i {
+                    margin-right: 10px;
+                }
+
+
+@media (min-width: 550px) {
+    .quemsomos-equipe {
+        background-image: url(../images/quem-somos-equipe.jpg);
+        height: 500px; /* You must set a specified height */
+        width: 100%;
+        background-position: center center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+    }
+
+    #quemsomos-equipe {
+        display: none;  
+    }
+
+    .quemsomos__titulo1 {
+        font-size: 25px;
+    }
+
+    .quemsomos__item {
+        margin: 0 0 0 16%;
+        font-size: 18px;
+    }
+        .quemsomos__item__detalhe {
+            margin: 0 0 0 20%;
+            padding: 10px 30px 10px 10px;
+        }
+        .quemsomos__item__detalhe p {
+            margin: 0 10% 0 0;
+            padding: 10px 30px 10px 10px;
+        }
+        .quemsomos__item__opcoes {
+            margin: 0 0 0 20%;
+        }
+            .quemsomos__item__opcao {
+                margin: 2px 0;
+                height: 5px;
+            }
+}

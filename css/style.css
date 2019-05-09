@@ -409,13 +409,12 @@ nav {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: silver;  
     background: #121313;
     border-top: 1px solid #2a2a2a;
-    padding: 5px 10px;
-    margin-bottom: 0px;
+    padding: 7px 10px;
     flex: 0 0 auto;
 }
 .footer__telefone, .footer_icons {
@@ -424,16 +423,12 @@ nav {
 .footer__icons {
     font-size: 30px;
 }
-.footer__icons i {
-    margin-right: 10px; 
-}
 .footer__telefone span i {
     margin-right: 6px;
     font-size: 15px;
 }
 .footer__telefone .telefone {
     font-size: 15px;
-    margin-top: 2px;
 }
 .footer__razao {
     display: none;
