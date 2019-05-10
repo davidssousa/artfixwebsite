@@ -44,8 +44,8 @@
         }
             .projetos__titulo__sub {
                 display: flex;
-                font-size: 20px;
-                flex-basis: 90px;
+                font-size: 17px;
+                flex-basis: 70px;
                 align-items: center;
                 margin: 0 10%;
             }
