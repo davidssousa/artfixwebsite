@@ -11,29 +11,33 @@
     min-height: 85vh;
     margin-bottom: 0;
     padding-bottom: 0;
-    background-image: linear-gradient(#F7A35F,#F7A35F, #F7A35F, #F7A35F, #F7A35F, #ffffff);
+    /* background-image: linear-gradient(#F7A35F,#F7A35F, #F7A35F, #F7A35F, #F7A35F, #ffffff); */
+    background-image: url(../images/brazil-promotion-2017-bg.jpg);
 }
 
     .projetos__titulo {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 130px;
+        margin-top: 300px;
         /* margin-right: 10%; */
         /* padding-left: 100px; */
         /* height: 300px;  */
+        /* background: violet; */
     }
         .projetos__titulo__logo {
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: flex-end;
+            align-items: flex-end;
             height: 170px;
+            /* background: #00768d; */
         }
         .projetos__titulo__itens {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             color: #fff;
+            /* background: red; */
         }
         .projetos__titulo__principal {
             display: flex;
@@ -44,6 +48,7 @@
         }
             .projetos__titulo__sub {
                 display: flex;
+                color: #00768d;
                 font-size: 20px;
                 flex-basis: 90px;
                 align-items: center;
@@ -98,24 +103,32 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 130px;
+        /* margin-top: 500px; */
         margin-right: 10%;
         padding-left: 100px;
         height: 300px;
+        
+    }
+    .projetos__titulo img {
+        height: 500px;
+        width: auto;
     }
 
     .projetos__titulo__logo {
         display: flex;
-        flex: 3;  
+        flex: 5;  
         justify-content: flex-end;
-        align-items: center;
-        padding-right: 10%;
+        align-items: flex-end;
+        padding-left: 10%;
+        margin-top: 300px;
     }
     .projetos__titulo__itens {
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
         flex: 7;
         color: #fff;
+        margin-top: 150px;
     }
     .projetos__titulo__principal {
         display: flex;
@@ -129,8 +142,8 @@
             display: flex;
             font-size: 30px;
             flex-basis: 100px;
-            width: 100%;
-            align-items: center;
+            width: 85%;
+            align-items: flex-start;
         }
         .projetos__titulo__linha {
             background: #ffffff65;
